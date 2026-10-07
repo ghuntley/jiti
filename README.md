@@ -2,6 +2,8 @@
 
 **Grow a running Lisp application by talking to it.**
 
+Licensed under the [MIT License](LICENSE).
+
 Jiti is a cooperative kernel for developing and using a live Common Lisp application through chat. Ask for a function, try it against the application's data, then ask for another capability that builds on it. Accepted definitions remain available to later requests and can be recovered in a fresh process.
 
 Application behaviour comes from the Lisp you add and the resources your world adapter supports. You can start with an empty function catalogue or extend an existing application. The same interface lets you inspect definitions, execute expressions, preview changes, and repair a paused call.
